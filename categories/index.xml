@@ -1,60 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 親愛的，我抽的只是菸</title>
+    <title>Categories on 與心同行｜迷途少女的靈性歸根之旅</title>
     <link>https://niyou0509.github.io/categories/</link>
-    <description>Recent content in Categories on 親愛的，我抽的只是菸</description>
+    <description>Recent content in Categories on 與心同行｜迷途少女的靈性歸根之旅</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 05 Oct 2024 04:07:47 +0800</lastBuildDate>
     <atom:link href="https://niyou0509.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Android And Gaming</title>
-      <link>https://niyou0509.github.io/categories/android-and-gaming/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://niyou0509.github.io/categories/android-and-gaming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go Language</title>
-      <link>https://niyou0509.github.io/categories/go-language/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://niyou0509.github.io/categories/go-language/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTML</title>
-      <link>https://niyou0509.github.io/categories/html/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://niyou0509.github.io/categories/html/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTML &amp; CSS</title>
-      <link>https://niyou0509.github.io/categories/html-css/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://niyou0509.github.io/categories/html-css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming Language</title>
-      <link>https://niyou0509.github.io/categories/programming-language/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://niyou0509.github.io/categories/programming-language/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://niyou0509.github.io/categories/python/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://niyou0509.github.io/categories/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Design</title>
-      <link>https://niyou0509.github.io/categories/web-design/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://niyou0509.github.io/categories/web-design/</guid>
+      <title>故事咖啡館</title>
+      <link>https://niyou0509.github.io/categories/%E6%95%85%E4%BA%8B%E5%92%96%E5%95%A1%E9%A4%A8/</link>
+      <pubDate>Sat, 05 Oct 2024 04:07:47 +0800</pubDate>
+      <guid>https://niyou0509.github.io/categories/%E6%95%85%E4%BA%8B%E5%92%96%E5%95%A1%E9%A4%A8/</guid>
       <description></description>
     </item>
   </channel>
