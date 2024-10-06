@@ -106,6 +106,84 @@
 
         
       </div>
+
+      
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<div id="aplayera" style="opacity:0.8;color: var(--tw-prose-headings);"></div>
+<script type="text/javascript">
+  const ap = new APlayer({
+    container: document.getElementById('aplayera'),
+        fixed: true,
+        lrcType: 3,
+        order: 'random',
+    audio: [{
+      name: 'Return to Innocence 反璞歸真',
+        artist: '台灣原住民+不明女歌手',
+        url: '/images/Music/Return_to_Innocence.wmv.mp3',
+        cover: '/images/Music/Return to Innocence.jpg',
+        lrc: ''
+    },
+    
+    ]
+});
+
+        ready();
+    
+    isRecover = false;
+    function ready(){
+        ap.on('canplay', function () {
+            if(!isRecover){
+                if(localStorage.getItem("musicIndex") != null){
+                    musicIndex = localStorage.getItem("musicIndex");
+                    musicTime = localStorage.getItem("musicTime");
+                    if(ap.list.index != musicIndex){
+                        ap.list.switch(musicIndex);
+                    }else{
+                        ap.seek(musicTime);
+                        ap.play();
+                        localStorage.clear();
+                        ap.setAttribute(muted,'');
+                        ap.setAttribute(playsinline,'');
+                        isRecover = true;
+                    }
+                }else{
+                    isRecover = true;
+                }
+            }
+        });
+    }
+
+    window.onbeforeunload = function(event) {
+        if(!ap.audio.paused){
+            musicIndex = ap.list.index;
+            musicTime = ap.audio.currentTime;
+            localStorage.setItem("musicIndex",musicIndex);
+            localStorage.setItem("musicTime",musicTime);
+        }
+    };
+
+
+
+var element = document.getElementsByClassName("aplayer-title")[0];  
+$(element).wrap("<a href='/radio/pick/'></a>");
+</script>
+
+
+
+
+
+<style type="text/css">
+    .aplayer-title, .aplayer-list-light {
+        color:#000000cc;
+    }
+    .aplayer-list{
+        color:#717070bf;
+    }
+</style>
+
+
     </nav>
 
     <div class="row">
